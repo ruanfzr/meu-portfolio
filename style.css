@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f4f4f481;
     color: #333;
     margin: 0;
     padding: 0;
@@ -90,8 +90,35 @@ footer {
     color: #000;
 }
 
-#proejetos {
+#projetos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    text-align: left;
+    .dl {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+}
+
+#sobre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#formacao {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
 }
